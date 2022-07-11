@@ -1,0 +1,57 @@
+* {
+    padding: 0;
+    transform-origin: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(./img/night.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    cursor: none;
+}
+
+.body {
+    background: url(./img/Minions-body.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 348px;
+    height: 553.7px;
+    margin-top: 22rem;
+}
+
+.eyes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 105px;
+}
+
+.eye {
+    width: 79.7px;
+    height: 68px;
+    border-radius: 50%;
+    float: left;
+    margin: 20px;
+    text-align: center;
+}
+
+.ball {
+    background: url(./img/eye.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 42.3px;
+    height: 42.3px;
+    border-radius: 50%;
+}
+
+.cursor {
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 5rem;
+}
